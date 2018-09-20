@@ -1,0 +1,29 @@
+html, body, #map{
+    height:90%;
+    width:95%;
+    font-family: "PT Sans", Corbel, sans-serif;
+    font-size: 15px
+}
+
+.infoHeader {
+    color: black;
+    font-family: "PT Sans", Corbel, sans-serif;
+    font-size: 18px
+}
+.popupImage {
+    width: 100%;
+    height: 100%;
+}
+.infoheader {
+    color: red;
+    font-family: "PT Sans", Corbel, sans-serif;
+    font-size: 24px
+}
+.legend {
+    background: white; 
+    line-height:1.5em
+}
+.legend {
+    width : 10em; 
+    float:left
+}

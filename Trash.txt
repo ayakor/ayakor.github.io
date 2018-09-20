@@ -1,0 +1,16 @@
+
+/*var health = L.tileLayer.wms("http://localhost:8080/geoserver/Web_Mapping/wms", {
+    layers: 'Health',
+    format: 'image/png',
+    transparent: true,
+    attribution: "WHO"
+}).addTo(mymap);*/
+
++ feature.return{
+        fillColor : 'red',
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: 3,
+        fillOpacity:0.7
+    } +
