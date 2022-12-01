@@ -244,7 +244,7 @@ legend.onAdd = function (mymap) {
 legend.addTo(mymap);
 
     
-	/*var baseLayers = {
+	var baseLayers = {
         "Google Satellite": googlesatellite,
         "Google Street" : googlestreet,
         "Google Hybrid" : googlehybrid,
@@ -262,4 +262,4 @@ legend.addTo(mymap);
     "Road Inventory" : hims
 	};
 
-	L.control.layers(baseLayers, overlays).addTo(mymap);*/
+	L.control.layers(baseLayers, overlays).addTo(mymap);
