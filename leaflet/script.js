@@ -40,6 +40,10 @@ var mymap = L.map('map',{
         minZoom:4,
         maxZoom:18
         });
+//for disabling touch and scroll zoom function
+mymap.touchZoom.disable();
+mymap.scrollWheelZoom.disable();
+
 
 	var googlesatellite = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
     maxZoom: 20,
