@@ -294,10 +294,10 @@ legend.addTo(mymap);
 	var overlays = {
     "District" : district,
     "Running Projects" : headqarter,
-    "Completed Projects" : discharge,
+    "Completed Projects" : ,
     "Upcoming Projects" : data,
-    "Sunsari Project" : sunsari,
-    "Road Inventory" : hims
+    "Sunsari Project" : ,
+    "Road Inventory" : 
 	};
 
 	L.control.layers(baseLayers, overlays).addTo(mymap);
