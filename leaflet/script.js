@@ -194,7 +194,7 @@ var data = L.geoJson(datta, {
                     iconSize: [20, 20],
                     iconAnchor: [13, 27],
                     popupAnchor:  [1, -24],
-                    iconUrl: 'leaflet/images/yhydroelectric.png'
+                    iconUrl: 'leaflet/images/redhydroelectric.png'
                 });
                 return L.marker(latlng, {icon: smallIcon});
             },
@@ -206,7 +206,7 @@ legend.onAdd = function (mymap) {
 
     var div = L.DomUtil.create('div', 'info legend'),
         grades = ["Running Projects", "Completed Projects"],
-        labels = ["leaflet/images/hydroelectric.png","leaflet/images/redhydroelectric.png","leaflet/images/yhydroelectric.png"];
+        labels = ["leaflet/images/hydroelectric.png","leaflet/images/redhydroelectric.png"];
 
     // loop through our density intervals and generate a label with a colored square for each interval
     div.innerHTML = '<div><b>Legend<b></div>';
